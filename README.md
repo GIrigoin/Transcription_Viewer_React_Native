@@ -1,50 +1,113 @@
-# Welcome to your Expo app 👋
+# Prueba técnica Frontend/Full Stack Developer
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Descripción de la Prueba:
 
-## Get started
+Desarrolla una pequeña aplicación web utilizando Next.js, Tailwind CSS y TypeScript que muestre la transcripción de una llamada telefónica en un componente que mapee cada mensaje tanto del agente como del usuario. La aplicación debe permitir al usuario hacer clic en cualquier parte de la transcripción y saltar automáticamente a esa parte específica del audio.
 
-1. Install dependencies
+## Requisitos Técnicos:
 
-   ```bash
-   npm install
-   ```
+### Frontend:
 
-2. Start the app
+Utiliza Next.js como framework de React.
+Implementa la interfaz de usuario utilizando Tailwind CSS.
+Utiliza TypeScript para mejorar la calidad y la legibilidad del código.
 
-   ```bash
-    npx expo start
-   ```
+### Componente de Transcripción:
 
-In the output, you'll find options to open the app in a
+Crea un componente que mapee cada mensaje (tanto del agente como del usuario) en la transcripción de la llamada.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Funcionalidad:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Muestra la transcripción de la llamada en un componente con mensajes separados para el agente y el usuario.
+Reproduce el audio de la llamada.
+Permite al usuario hacer clic en cualquier parte de la transcripción para saltar a esa parte del audio.
+Proporciona controles de reproducción de audio básicos (reproducir, pausar, detener).
 
-## Get a fresh project
+## Puntos Adicionales (Opcionales):
 
-When you're ready, run:
+### Diseño Responsivo:
 
-```bash
-npm run reset-project
-```
+Haz que la aplicación sea completamente responsive para adaptarse a diferentes tamaños de pantalla.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Estilo y Animaciones:
 
-## Learn more
+Utiliza Tailwind CSS para estilizar la aplicación y agrega animaciones suaves para mejorar la experiencia del usuario.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Entrega:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Sube el código fuente de tu proyecto a un repositorio en GitHub y comparte el enlace con nosotros.
+Despliega la aplicación en Vercel y proporciona el enlace para que podamos probarla en línea.
+Enviar los enlaces junto a tu CV al correo team@contactship.ai
 
-## Join the community
+## Notas Finales:
 
-Join our community of developers creating universal apps.
+Recuerda mantener un enfoque modular y escalable en tu código.
+La claridad, la legibilidad y la eficiencia del código serán consideradas en la evaluación.
+¡Buena suerte y diviértete!
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Transcripción:
+
+[
+{
+"content": "¡Hola! Soy Maria, asesora de admisiones de la Universidad Online. ¿En qué puedo ayudarte hoy?",
+"role": "agent",
+"start": 1.005,
+"end": 6.331625
+},
+{
+"content": "Hola María, ¿cómo estás? Estoy viendo en sus redes que estaban mostrando algunas licenciaturas, algo que tenga que ver con tecnología o podría contar un poquito más.",
+"role": "user",
+"start": 7.24,
+"end": 15.562688
+},
+{
+"content": "¡Hola! Estoy bien, gracias por preguntar. En la Universidad Online ofrecemos la Licenciatura en Desarrollo de Software, una excelente opción relacionada con tecnología. ¿Te gustaría saber más detalles sobre este programa?",
+"role": "agent",
+"start": 17.028,
+"end": 29.02025
+},
+{
+"content": "Sí, ¿cuál sería el el plan de estudio?",
+"role": "user",
+"start": 30.369999,
+"end": 32.71
+},
+{
+"content": "El plan de estudios de la Licenciatura en Desarrollo de Software incluye materias como programación, diseño web, bases de datos y desarrollo de aplicaciones. ¿Te gustaría conocer más detalles sobre las asignaturas y duración del programa?",
+"role": "agent",
+"start": 34.359,
+"end": 47.744
+},
+{
+"content": "No, me gustaría el precio nada más. Gracias.",
+"role": "user",
+"start": 49.14,
+"end": 51.088
+},
+{
+"content": "El precio de la Licenciatura en Desarrollo de Software es de 36 mensualidades de dos mil ochocientos pesos mexicanos. ¿Te gustaría saber más sobre los",
+"role": "agent",
+"start": 52.838,
+"end": 61.523
+}
+]
+
+## Link del audio:
+
+### Original de la prueba:
+
+https://drive.google.com/file/d/1hZv0jO9QVLWPkpr0f2vt0oik22muwUtX/view?usp=sharing
+
+### Copia en mi Cloud
+
+#### Audio:
+
+https://drive.google.com/file/d/17UNyr5WgRIuhunpL9ZeP9BOpiK2SvhGO/view?usp=drive_link
+
+https://res.cloudinary.com/dyt4p8agq/video/upload/v1720479201/epn2vs0g0wxnowelcjef.wav
+
+#### Transcripcion
+
+https://drive.google.com/file/d/1BTM4n_xyMshXwwAFcnsOk-1lr5Ofe-ua/view?usp=drive_link
+
+https://res.cloudinary.com/dyt4p8agq/raw/upload/v1720479186/xol1azvhus4oznorce7l.json
