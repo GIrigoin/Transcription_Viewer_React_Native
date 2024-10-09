@@ -180,9 +180,10 @@ export default function Index() {
         padding: 0,
         margin: 0,
         width: "100%",
+        height: "100%",
       }}
     >
-      <View style={{ height: "85%" }}>
+      <View style={{ height: "80%" }}>
         <ScrollView
           contentContainerStyle={{
             margin: 0,
@@ -201,7 +202,7 @@ export default function Index() {
           flexDirection: "column",
           backgroundColor: theme.colors.secondary,
           width: "100%",
-          height: "15%",
+          height: "20%",
           padding: 10,
           alignSelf: "flex-end",
           alignItems: "center",
@@ -221,6 +222,7 @@ export default function Index() {
             justifyContent: "center",
             alignItems: "center",
             height: "auto",
+            marginBottom: 10,
             // backgroundColor: theme.colors.secondary,
           }}
         >
